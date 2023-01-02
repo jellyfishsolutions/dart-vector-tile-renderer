@@ -14,7 +14,7 @@ class ImageRenderer {
 
   ImageRenderer({required this.theme, required this.scale, Logger? logger})
       : logger = logger ?? const Logger.noop() {
-    assert(scale >= 1 && scale <= 4);
+    //assert(scale >= 1 && scale <= 4);
   }
 
   /// renders the given tile to an image
